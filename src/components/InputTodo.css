@@ -1,0 +1,42 @@
+.input-todo-container {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+}
+
+.input-todo, .textarea-todo {
+  padding: 10px;
+  border-radius: 3px;
+  border: 1px solid #ccc; 
+
+}
+
+.severity-options {
+  display: flex;
+  justify-content: center;
+}
+
+.severity-button {
+  background-color: #9d9d9d; 
+  color: white; 
+  border: none; 
+  border-radius: 3px; 
+  padding: 10px 15px; 
+  margin: 0 5px; 
+  cursor: pointer;
+
+  transition: background-color 0.3s ease;
+}
+
+.severity-button.active {
+  background-color: #000000;
+  color: rgb(255, 255, 255); 
+}
+
+.severity-button:hover {
+  background-color: #e0e0e0;
+}
+
+.hidden {
+  display: none; 
+}

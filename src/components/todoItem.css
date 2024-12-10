@@ -1,0 +1,14 @@
+.touchable {
+    display: inline-block;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.35s ease;
+    transform-origin: center;
+}
+
+.touchable.held {
+    transform: scale(1.035);
+}

@@ -1,0 +1,21 @@
+.severity-filter {
+  display: flex;
+  gap: 20px;
+}
+
+.severity-button {
+  padding: 10px 20px;
+  border: 2px solid gray; 
+  border-radius: 5px;
+  background-color: transparent; 
+  color: gray; 
+  cursor: pointer;
+  font-size: 16px; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.severity-button.active {
+  background-color: black; 
+  color: white; 
+  border-color: black;
+}
