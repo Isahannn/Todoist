@@ -56,7 +56,29 @@ Button to generate 1000 tasks for testing.
 
 Debounce filtering to minimize excessive re-renders.
 
-
+Project Structure
+Todoist-App/
+│
+├── src/
+│   ├── components/
+│   │   ├── Task.js            # Task display component
+│   │   └── TaskList.js        # Main task list component
+│   │
+│   ├── utils/
+│   │   └── helpers.js         # Helper functions for validation, etc.
+│   │
+│   ├── App.js                 # Main application component
+│   ├── index.js               # Entry point
+│   └── styles.css             # CSS styles (TailwindCSS, CSS modules, or SCSS modules)
+│
+├── public/
+│   ├── index.html             # HTML template
+│
+├── package.json               # Project metadata and dependencies
+└── README.md                  # Project documentation
+Installation
+Prerequisites
+Node.js
 
 npm or yarn
 
